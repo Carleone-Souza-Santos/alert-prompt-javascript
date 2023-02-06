@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    height: 30px;
+    width: 21%;
+    margin-bottom: 5%;
+    margin-left: 15px;
+    margin-left: 15%;
+}
+
+img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#formula{    
+margin-top: 10%;
+margin-left:40%;
+width:300px ;
+height:200px ;
+}
+
+p{
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+input{
+    border-radius: 15px;
+    border: 1px solid rgb(110, 110, 104);
+    margin-top: 5px;
+    margin-left:18%;
+}
+
+button{
+    margin-top: 25px;
+    height: 25px;
+    width: 70%;
+    cursor: pointer;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 25px;
+    transition: 2s ease;
+   animation-duration: 2s;
+   animation-delay: 1s;
+   animation-timing-function: 1s;
+   animation-iteration-count: infinite;
+   animation-name: pisca;
+}
+
+@keyframes pisca {
+    0% {
+        opacity: 0;
+        background-color: rgb(22, 235, 40);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        background-color: rgb(178, 211, 34);
+    }
+}
+
+
+
